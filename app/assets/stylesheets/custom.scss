@@ -18,7 +18,7 @@ body
 	background-color: transparent;
 	left: 0;
 	top: 0;
-	z-index: 1;
+	
 	position: absolute;
 }
 
@@ -29,12 +29,12 @@ header .container
     height: 100%;
     max-width: 1200px;
     background: none;
-    z-index: 10;
+    
 }
 
 .container 
 {
-    z-index: 1;
+   
     width: 90%;
 
     margin: 0 auto;
@@ -165,12 +165,12 @@ header nav.right-nav li.menu-get-started a {
     min-height: 100vh;
 
 }
-element {
+/*element {
 
    
     background-image: url("https://checkr.com/wp-content/uploads/2015/10/checkr_header_industries-1.jpg");
 
-}
+}*/
 #home-hero {
 
     overflow: hidden;
@@ -317,4 +317,11 @@ body.home .hero {
 }
 
 
+
+
+#home-hero .column.six:last-of-type {
+
+    flex: 0 0 55%;
+
+}
 
