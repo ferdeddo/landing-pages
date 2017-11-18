@@ -27,7 +27,7 @@ header .container
 
     position: relative;
     height: 100%;
-    max-width: 1200px;
+    max-width: 100%;
     background: none;
     
 }
@@ -68,7 +68,7 @@ header nav.primary-nav {
 	height: 100%;
 	transition: none;
 	padding: 0;
-	max-width: 700px;
+	max-width: 100%;
 	top: 52px;
 	color: white;
 	font-weight: bold;
@@ -183,7 +183,7 @@ header nav.right-nav li.menu-get-started a {
 }
 body.home .hero {
 
-    max-height: 770px;
+    max-height: 100%;
     min-height: 600px;
 
 }
